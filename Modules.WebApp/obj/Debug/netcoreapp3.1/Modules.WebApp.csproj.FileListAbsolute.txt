@@ -1,0 +1,9 @@
+C:\Users\Milon\source\repos\WebApp\Modules.WebApp\bin\Debug\netcoreapp3.1\Modules.WebApp.deps.json
+C:\Users\Milon\source\repos\WebApp\Modules.WebApp\bin\Debug\netcoreapp3.1\Modules.WebApp.dll
+C:\Users\Milon\source\repos\WebApp\Modules.WebApp\bin\Debug\netcoreapp3.1\Modules.WebApp.pdb
+C:\Users\Milon\source\repos\WebApp\Modules.WebApp\obj\Debug\netcoreapp3.1\Modules.WebApp.AssemblyInfoInputs.cache
+C:\Users\Milon\source\repos\WebApp\Modules.WebApp\obj\Debug\netcoreapp3.1\Modules.WebApp.AssemblyInfo.cs
+C:\Users\Milon\source\repos\WebApp\Modules.WebApp\obj\Debug\netcoreapp3.1\Modules.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Milon\source\repos\WebApp\Modules.WebApp\obj\Debug\netcoreapp3.1\Modules.WebApp.dll
+C:\Users\Milon\source\repos\WebApp\Modules.WebApp\obj\Debug\netcoreapp3.1\Modules.WebApp.pdb
+C:\Users\Milon\source\repos\WebApp\Modules.WebApp\obj\Debug\netcoreapp3.1\Modules.WebApp.csprojAssemblyReference.cache

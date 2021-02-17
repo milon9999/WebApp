@@ -1,0 +1,118 @@
+﻿@model Convertor;
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+
+@using (Html.BeginForm("Index", "Home"))
+{
+    <table class="main-table">
+        <thead>
+            <tr>
+                <td class="text-center">
+                    <h1 class="display-4">Converter</h1>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Dates.Count() < 1)
+            {
+                <tr>
+                    <td>
+                        There are no data imported
+                    </td>
+
+                </tr>
+            }
+            <tr>
+
+                <td>
+                    <table class="dates-table">
+                        <thead>
+                            <tr>
+                                <td class="dates-label-td">
+                                    @Html.LabelFor(model => model.Dates, new { @class = "control-label col-md-2" })
+                                </td>
+                                <td class="dates-combobox-td">
+                                    @Html.DropDownListFor(model => model.Dates, Model.Dates, new { @class = "form-control", onchange = "return onchangeCombobox(event)" })
+                                </td>
+                                <td class="dates-button-td">
+                                    <input id="SelectDateButton" class="button-select" type="submit" value="Select" />
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <div class="form-group">
+                        <table class="select-table">
+                            <thead>
+                                <tr>
+                                    <td>
+                                        @Html.LabelFor(model => model.Amount, new { @class = "control-label col-md-2" })
+                                    </td>
+                                    <td>
+                                        @Html.LabelFor(model => model.From, new { @class = "control-label col-md-2" })
+                                    </td>
+                                    <td>
+                                        @Html.LabelFor(model => model.To, new { @class = "control-label col-md-2" })
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        @Html.TextBoxFor(model => model.Amount, new { @class = "form-control", onkeypress = "return isNumberKey(event)" })
+                                    </td>
+                                    <td>
+                                        @Html.DropDownListFor(model => model.From, Model.From, "", new { @class = "form-control", onchange = "return onchangeCombobox(event)" })
+                                    </td>
+                                    <td>
+                                        @Html.DropDownListFor(model => model.To, Model.To, "", new { @class = "form-control", onchange = "return onchangeCombobox(event)" })
+                                    </td>
+                                    @*<td>
+                                        <input class="button-select" id="CalculateButton" type="submit" onclick="calculate();return false;" value="Calculate" />
+                                    </td>*@
+                                </tr>
+                                <tr id="SelectRow">
+                                    <td>
+                                    </td>
+                                    <td>
+                                        @Html.Label(null, "", new { @class = "combobox-selected", id = "FromSelect" })
+                                    </td>
+                                    <td>
+                                        @Html.Label(null, "", new { @class = "combobox-selected", id = "ToSelect" })
+                                    </td>
+                                </tr>
+                                <tr id="ErrorRow">
+                                    <td>
+                                        @Html.Label(null, "Please fill this text box", new { @class = "text-danger", id = "AmountError" })
+                                    </td>
+                                    <td>
+                                        @Html.Label(null, "Please select value", new { @class = "text-danger", id = "FromError" })
+                                    </td>
+                                    <td>
+                                        @Html.Label(null, "Please select value", new { @class = "text-danger", id = "ToError" })
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        @Html.Label(null, "", new { id = "Result" })
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+}

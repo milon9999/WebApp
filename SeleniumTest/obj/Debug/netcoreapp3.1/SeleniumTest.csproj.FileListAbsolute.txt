@@ -1,0 +1,16 @@
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.exe
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.deps.json
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.runtimeconfig.json
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.runtimeconfig.dev.json
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.dll
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.pdb
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.csprojAssemblyReference.cache
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.AssemblyInfoInputs.cache
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.AssemblyInfo.cs
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.csproj.CoreCompileInputs.cache
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.csproj.CopyComplete
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.dll
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.pdb
+C:\Users\Milon\source\repos\WebApp\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.genruntimeconfig.cache
